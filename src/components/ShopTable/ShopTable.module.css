@@ -1,0 +1,78 @@
+.table_body > :not(:last-child) {
+    border-bottom: 2px solid #b1b1b148;
+}
+.table_body {
+    color: #6E6E6E;
+}
+.table {
+    border-collapse: collapse;
+    border-color: transparent;
+    width: 936px;
+}
+.table_head {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+.table_head > tr > :first-child{
+    padding-left: 0;
+}
+.table_body > tr > :first-child{
+    padding-left: 0;
+}
+
+.table_body > tr > td {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    padding-top: 30px;
+}
+
+.table_body > tr > :last-child {
+    padding-right: 0;
+    padding-bottom: 19px;
+    padding-top: 18.5px;
+}
+
+.container {
+    background-color: #FFFFFF;
+    border-radius: 4.5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    padding: 23px;
+    padding-bottom: 10px;
+    padding-top: 18.5px;
+}
+
+.num {
+    width: 12%;
+}
+
+.name {
+    width: 22.4%;
+}
+
+.addres {
+    width: 28.4%;
+}
+
+.action {
+    width: 37.2%;
+    padding-right: 0;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .table {
+        display: inline-block;
+        width: 70vw;
+        overflow-y: scroll;
+        overflow-x: scroll;
+    }
+    .container {
+        width: 80vw;
+    }
+}

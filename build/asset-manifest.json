@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.826f0fce.css",
+    "main.js": "/static/js/main.7206e082.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Roboto-Medium.ttf": "/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
+    "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/Roboto-Bold.ttf": "/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
+    "static/media/карандаш 1.svg": "/static/media/карандаш 1.c245ac66f1a1a7529439114dc1a11b73.svg",
+    "static/media/мегафон.svg": "/static/media/мегафон.87d817e8117a27e4e0ecd937020f587c.svg",
+    "static/media/гарнитура.svg": "/static/media/гарнитура.ecd307bbdf1346690b8bbba7fb3b3248.svg",
+    "static/media/warning.svg": "/static/media/warning.68481ce81573918c6fcc59eee9843b41.svg",
+    "static/media/вопрос.svg": "/static/media/вопрос.bf70875caff1ab6189ecffbdbeaea6b4.svg",
+    "static/media/кошелек.svg": "/static/media/кошелек.99470be4aa5e377691fce26005a0c5ba.svg",
+    "index.html": "/index.html",
+    "static/media/тележка.svg": "/static/media/тележка.c10715b41cc11531193a30243e4f5998.svg",
+    "static/media/дом.svg": "/static/media/дом.fb6f33af124cc0d43f1086f940d1e36c.svg",
+    "static/media/аватар.svg": "/static/media/аватар.dcdb2d4f99ebf72276a124f2d35d31c6.svg",
+    "static/media/диаграмма.svg": "/static/media/диаграмма.27d622fa7d853ec7cfe472511a7f163a.svg",
+    "static/media/выход.svg": "/static/media/выход.db1051e40caa08f542ca5a6836e8529f.svg",
+    "static/media/envelope.svg": "/static/media/envelope.9fa5ea78878da27c19f41e356c2c5eff.svg",
+    "static/media/Эллипс 2.svg": "/static/media/Эллипс 2.8dd6253844d5a8b1417accaa9d6d75e7.svg",
+    "static/media/cansel.svg": "/static/media/cansel.867190a11d2bbd5acb3db3d1df37a5b7.svg",
+    "static/media/arrow.svg": "/static/media/arrow.36ea83d9828700c8e3cc6ffa95e8d4fa.svg",
+    "static/media/arrow_select.svg": "/static/media/arrow_select.01b6fb0ede2ab76014c3.svg",
+    "static/media/Ellipse 42.svg": "/static/media/Ellipse 42.22e6a580cc13ab7cde2be40e612d4dea.svg",
+    "main.826f0fce.css.map": "/static/css/main.826f0fce.css.map",
+    "main.7206e082.js.map": "/static/js/main.7206e082.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.826f0fce.css",
+    "static/js/main.7206e082.js"
+  ]
+}

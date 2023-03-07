@@ -1,0 +1,67 @@
+
+.navigation {
+    width: 256px;
+    height: 100vh;
+    position: relative;
+    padding: 0.5rem 0rem;
+    background-color: #FFFFFF;
+    color: #7A7B7B;
+}
+.logo {
+  width: 82px;
+  height: 32px;
+  padding: 0;
+  margin-top: 22px;
+  margin-left: 25px
+}
+.hamburger {
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  margin-left: auto;
+  margin-right: 25px;
+  margin-top: 15px;
+  border-radius: 50%;
+  background-color: #283b8b;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  display: none;
+}
+.navigation_menu {
+    margin-right: auto;
+}
+.navMenu > div {
+  height: 49px;
+}
+.navMenu > div > a > span {
+  margin-left: 20px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+@media screen and (max-width: 1300px) {
+  .navigation_menu {
+    display: none;
+  }
+  .navigation {
+    height: 10vh;
+    width: 100vw;
+  }
+  .hamburger {
+    display: block;
+  }
+  .navigation_menu.expanded {
+    display: block;
+    position: fixed;
+    z-index: 999999;
+  }
+
+  .navigation.expanded {
+    height: 100vh;
+  }
+}

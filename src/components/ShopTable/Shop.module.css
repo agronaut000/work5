@@ -1,0 +1,61 @@
+.button {
+    color: white;
+    background-color: #55C97B;
+    width: 149px;
+    height: 36px;
+    border: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 3px;
+}
+
+.button_cancel {
+    color: white;
+    background-color: #B1B1B1;
+    width: 149px;
+    height: 36px;
+    border: 0px;
+    border-radius: 3px;
+    /* padding-top: 0px;
+    padding-bottom: 0px; */
+    margin-left: 10px;
+}
+.text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+    margin-right: 0;
+    padding: 0;
+}
+
+.text_500 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.num {
+    width: 12%;
+}
+
+.name {
+    width: 25%;
+}
+
+.addres {
+    width: 29%;
+}
+
+@media screen and (max-width: 1300px) {
+    .button_cancel {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+}

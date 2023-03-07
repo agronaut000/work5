@@ -1,0 +1,87 @@
+.header {
+    height: 97px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+    color: #656565;
+    padding-top: 22px;
+}
+
+.pageInfo {
+    padding: 0px;
+    font-weight: 600;
+}
+
+.my_profile {
+    margin-left: auto;
+    border-radius: 4.5px;
+    width: 353px;
+    height: 75px;
+    padding: 0px;
+}
+
+.msg {
+    width: 65px;
+    height: 65px;
+    border: 2px solid #D4D4D4;
+    border-radius: 4.5px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.message {
+    margin-left: 20px;
+    margin-top: 22px;
+    width: 22px;
+    height: 18px;
+}
+
+.ellipse {
+    margin-left: -6px;
+    margin-bottom: -2px;
+}
+
+.me {
+    background-color: #ffffff;
+    width: 256px;
+    height: 65px;
+    margin-left: 16px;
+    border-radius: 4.5px;
+}
+
+.name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+
+    margin-left: 4px;
+    
+    color: #7D7D7D;
+}
+
+.ellipse_42 {
+    margin-left: 5px;
+    padding: 0;
+    width: 45px;
+    height: 45px;
+}
+
+.circle {
+    height: 41px;
+    width: 41px;
+    border-radius: 41px;
+    margin-left: -43px;
+    /* background-color: red; */
+    background-image: url('./../../img/фото.svg');
+}
+
+@media screen and (max-width: 640px) {
+  .my_profile {
+    margin-right: auto;
+    width: 100vw;
+  }
+}

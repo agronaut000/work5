@@ -1,0 +1,220 @@
+.button {
+    color: white;
+    background-color: #55C97B;
+    width: 185px;
+    height: 36px;
+    border: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.button_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    margin: auto;
+}
+.plus {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 21px;
+    margin: auto;
+}
+
+.create_shop {
+    margin: 0;
+    margin-bottom: 24px;
+    width: 565px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 650;
+    font-size: 20px;
+    line-height: 21px;
+    color: #343434
+}
+
+.container {
+    min-width: 616px;
+    max-width: 616px;
+    padding: 30px;
+    width: 616px;
+    background-color: #ffffff;
+    margin-top: 152px;
+    border-radius: 4.5px;
+}
+.template {
+    margin: 0;
+    width: 625px;
+}
+
+.robotoMedium {
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 5px;
+}
+
+.robotoRegular {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.selectTemplate {
+    color: #7C7C7C;
+    width: 240px;
+    height: 36px;
+    border-radius: 3px;
+    border: 1px solid #CDCDCD;
+	appearance:none;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	-ms-appearance:none;
+    background-position: calc(100% - 12px) center !important;
+    background: transparent url("./../../img/arrow_select.svg") no-repeat center;
+    padding: 8px 32px 8px 16px;
+}
+
+.domen {
+    margin: 0;
+    margin-top: 30px;
+}
+.input_row {
+    margin-left: 0;
+    margin-top: 5px;
+}
+
+.input {
+    font-weight: 575;
+    width: 419px;
+    background-color: #E6E6E9;
+    height: 36px;
+    border: none;
+    border-radius: 2px;
+    color: #7D7D7D;
+}
+
+.input_button {
+    font-weight: 575;
+    width: 151px;
+    color: #ffffff;
+    background-color: #6666CC;
+    margin-left: -3px;
+    height: 36px;
+    border: none;
+    border-radius: 2px;
+}
+
+.warning_row {
+    margin-top: 21px;
+}
+
+.warning_row > :first-child {
+    margin-right: 16px;
+    margin-left: 0px;
+}
+.warning_row > :last-child {
+    width: 488px;
+}
+
+.buttons_rows {
+    margin-top: 42px;
+    margin-left: 0
+}
+
+.button_modal {
+    background-color: #55C97B;
+    width: 151px;
+    height: 36px;
+    margin-left: 10px;
+    border: 0px;
+    border-radius: 2px;
+}
+
+.button_modal_cancel {
+    color: white;
+    background-color: #B1B1B1;
+    width: 151px;
+    height: 36px;
+    border: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 2px;
+}
+
+.modal {
+    position: fixed; /* фиксированное положение */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5); /* цвет фона */
+    z-index: 1050;
+    opacity: 0; /* по умолчанию модальное окно прозрачно */
+    -webkit-transition: opacity 200ms ease-in; 
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in; /* анимация перехода */
+    pointer-events: none; /* элемент невидим для событий мыши */
+    margin: 0;
+    padding: 0;
+}
+
+.modal_visible {
+    opacity: 1; /* делаем окно видимым */
+	  pointer-events: auto; /* элемент видим для событий мыши */
+    overflow-y: auto; /* добавляем прокрутку по y, когда элемент не помещается на страницу */
+}
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+}
+
+.warning_text {
+    font-size: 12px;
+    color: #7D7D7D;
+    font-weight: 575;
+    padding-left: 0;
+    margin-left: 0
+}
+.warning_icon {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+
+@media screen and (max-width: 640px) {
+    .button {
+        margin-top: 15px;
+    }
+}
+
+.create_shop > :first-child {
+    margin-left: 0;
+    padding: 0;
+}
+
+.create_shop > :last-child {
+    margin-left: auto;
+    padding: 0;
+    cursor: pointer;
+}
+
+.color_scheme {
+    margin-left:auto;
+    margin-right: 0;
+}
+
+
+.a {
+    text-decoration: none;
+    color: #6666CC
+}

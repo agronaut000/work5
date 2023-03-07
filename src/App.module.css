@@ -1,0 +1,14 @@
+.main_page {
+    margin-left: 35px;
+    padding-right: 16px;
+}
+
+.background {
+  background-color: #F8FAFF;
+  width: 100vw;
+  height: 100vh;
+  padding-left: 0px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
